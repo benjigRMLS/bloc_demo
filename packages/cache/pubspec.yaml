@@ -1,0 +1,11 @@
+name: cache
+description: a simple cache for the bloc demo
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk:  "^3.3.0"
+
+dependencies:
+  auth_repo:
+    path: ../auth_repo

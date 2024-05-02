@@ -1,0 +1,15 @@
+name: auth_repo
+description: Mock auth repo for bloc demo
+version: 0.0.1
+publish_to: none
+
+environment: 
+  sdk:  "^3.3.0"
+
+
+dependencies:
+  cache: 
+    path: ../cache
+  flutter:
+    sdk: flutter
+  
